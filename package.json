@@ -1,0 +1,19 @@
+{
+  "name": "user-interface",
+  "version": "1.0.0",
+  "description": "u-i",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/build-week-co-make-8-21/user-interface.git"
+  },
+  "author": "Tucker Leach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/build-week-co-make-8-21/user-interface/issues"
+  },
+  "homepage": "https://github.com/build-week-co-make-8-21/user-interface#readme"
+}
