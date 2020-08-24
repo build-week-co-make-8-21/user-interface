@@ -10,7 +10,7 @@
 |---------|
 |@white: #FFFFFF;|
 |@gray: #F8F8F8;|
-|@comake-blue: #F8F8F8;|
+|@comake-blue: #3184ED;|
 |@blue-skies: linear-gradient(to bottom, #56ccf2, #2f80ed);|
 
 | Fonts: |
