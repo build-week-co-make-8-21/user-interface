@@ -12,3 +12,8 @@
 |@gray: #F8F8F8;|
 |@comake-blue: #F8F8F8;|
 |@blue-skies: linear-gradient(to bottom, #56ccf2, #2f80ed);|
+
+| Fonts: |
+|--------|
+|Headings: Nunito|
+|Paragraph/ETC: Source Sans Pro|
