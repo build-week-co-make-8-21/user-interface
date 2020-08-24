@@ -1,0 +1,23 @@
+/* CSS Reset */
+
+* {
+    font-size: 100%;
+    font: inherit;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+/* Stylings */
+
+body {
+    color: #595959;
+}
