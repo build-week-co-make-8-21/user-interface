@@ -1,3 +1,7 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Source+Sans+Pro&display=swap");
+
 /* CSS Reset */
 
 * {
@@ -12,12 +16,71 @@
 
 a {
     text-decoration: none;
-    color: gray;
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 
-/* Stylings */
+/* Styling */
 
 body {
-    color: #595959;
+    /* color: #595959; */
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Nunito", sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.logo-img {
+    height: 45px;
+}
+
+header {
+    padding: 2% 0;
+}
+
+.button {
+    background-color: #3184ed;
+    color: white;
+}
+
+header #bar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav.pages {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+}
+
+header nav.links {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+}
+
+header #content {
+    margin-top: 2%;
 }
