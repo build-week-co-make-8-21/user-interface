@@ -165,7 +165,7 @@ header .heading-container {
 }
 
 .tile {
-    width: 25%;
+    width: 30%;
     text-align: center;
 }
 
@@ -181,6 +181,12 @@ header .heading-container {
     margin-bottom: 6%;
 }
 
+.tile img {
+    width: 70%;
+    border-radius: 50%;
+    margin-bottom: 1%;
+}
+
 .tile h3 {
     margin: 4% 0;
 }
@@ -188,7 +194,7 @@ header .heading-container {
 section.join {
     background-color: #f8f8f8;
     padding: 3% 0;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
 }
 
 section.join .button {
@@ -258,6 +264,15 @@ footer hr {
     padding: 3% 0;
 }
 
+.team-section {
+    text-align: center;
+    padding: 3% 0;
+}
+
+.team-section h2 {
+    margin-bottom: 4%;
+}
+
 @media screen and (max-width: 800px) {
     header .content-container {
         width: 80%;
@@ -267,14 +282,12 @@ footer hr {
         align-items: center;
     }
     .tile {
-        width: 50%;
-    }
-    #middle-tile {
-        margin: 7% 0;
+        width: 45%;
+        margin: 2% 0;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 570px) {
     header #bar {
         flex-direction: column;
         align-items: center;
@@ -290,7 +303,6 @@ footer hr {
         width: 27%;
         display: flex;
         justify-content: space-between;
-        /* border: 1px solid grey; */
     }
     .button {
         padding: 2%;
