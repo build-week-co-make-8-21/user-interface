@@ -42,6 +42,7 @@ h6 {
 h2 {
     font-size: 1.5rem;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 h3 {
@@ -114,6 +115,14 @@ header .content-container {
     border-radius: 7px;
 }
 
+header .content-container h2 {
+    margin-bottom: 0.5%;
+}
+
+header .content-container p {
+    margin-bottom: 2%;
+}
+
 .uses {
     padding: 3%;
 }
@@ -142,7 +151,7 @@ header .content-container {
 }
 
 .tile h3 {
-    margin: 3% 0;
+    margin: 2% 0;
 }
 
 section.join {
