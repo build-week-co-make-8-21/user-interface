@@ -86,11 +86,10 @@ header nav.pages {
     width: 25%;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid grey; */
 }
 
 header nav.links {
-    width: 12%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
     /* border: 1px solid grey; */
@@ -111,7 +110,8 @@ header .content-container {
     margin: 0 auto;
     background-color: rgba(0, 0, 18, 0.5);
     color: white;
-    padding: 3%;
+    padding: 2%;
+    padding-bottom: 3.5%;
     border-radius: 7px;
 }
 
@@ -215,4 +215,46 @@ footer hr {
 .break {
     border-bottom: 1px solid white;
     width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    header .content-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header #bar {
+        flex-direction: column;
+        align-items: center;
+    }
+    header .logo-img {
+        width: 175px;
+    }
+    header nav.pages {
+        width: 32%;
+        margin-bottom: 0.5%;
+    }
+    header nav.links {
+        width: 27%;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid grey; */
+    }
+    .button {
+        padding: 2%;
+    }
+    .tiles-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tile {
+        width: 50%;
+    }
+    #middle-tile {
+        margin: 7% 0;
+    }
+    footer nav {
+        width: 70%;
+    }
 }
