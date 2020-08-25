@@ -152,6 +152,14 @@ header .heading-container {
     color: #2f80ed;
 }
 
+
+/* Fixes the margin on sections that do not contain a button */
+
+.no-button p {
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
 .uses-section {
     padding: 4% 0;
     padding-bottom: 5%;
