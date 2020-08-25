@@ -27,6 +27,7 @@ body {
     /* color: #595959; */
     color: black;
     font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
 }
 
 h1,
@@ -38,21 +39,34 @@ h6 {
     font-family: "Nunito", sans-serif;
 }
 
-h1 {
-    font-weight: 800;
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
-.logo-img {
-    height: 45px;
+h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
 }
 
 header {
     padding: 2% 0;
 }
 
+.logo-img {
+    height: 45px;
+}
+
 .button {
     background-color: #3184ed;
     color: white;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 1%;
+}
+
+header #signup-button {
+    padding: 3% 10%;
 }
 
 header #bar {
@@ -71,16 +85,88 @@ header nav.pages {
     width: 25%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 header nav.links {
-    width: 15%;
+    width: 12%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
-header #content {
+header #hero-img {
     margin-top: 2%;
+    background-image: url("/assets/home-hero.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+}
+
+header .content-container {
+    width: 65%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 18, 0.5);
+    color: white;
+    padding: 3%;
+    border-radius: 7px;
+}
+
+.uses {
+    padding: 3%;
+}
+
+.tiles-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.tile {
+    width: 25%;
+    text-align: center;
+}
+
+.tile i {
+    font-size: 5rem;
+    color: #3184ed;
+}
+
+.tile h3 {
+    margin: 3% 0;
+}
+
+section.join {
+    background-color: #f8f8f8;
+    padding: 3%;
+}
+
+section.join .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.join h2 {
+    margin-bottom: 5%;
+}
+
+footer {
+    background: linear-gradient(to bottom, #56ccf2, #2f80ed);
+    color: white;
+    padding: 1% 0;
+}
+
+footer nav {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav a {
+    color: white;
 }
