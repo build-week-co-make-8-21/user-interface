@@ -178,10 +178,11 @@ header .heading-container {
     -moz-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 6%;
 }
 
 .tile h3 {
-    margin: 2% 0;
+    margin: 4% 0;
 }
 
 section.join {
@@ -251,6 +252,10 @@ footer hr {
 .break {
     border-bottom: 1px solid white;
     width: 100%;
+}
+
+.steps-section {
+    padding: 3% 0;
 }
 
 @media screen and (max-width: 800px) {
