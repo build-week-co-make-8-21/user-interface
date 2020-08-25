@@ -273,6 +273,22 @@ footer hr {
     margin-bottom: 4%;
 }
 
+
+/* Animations */
+
+@keyframes pop {
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.pop:hover {
+    animation: pop 0.3s linear 1;
+}
+
+
+/* Breakpoints */
+
 @media screen and (min-width: 1800px) {
     .tile {
         width: 27%;
