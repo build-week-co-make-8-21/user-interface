@@ -273,6 +273,12 @@ footer hr {
     margin-bottom: 4%;
 }
 
+@media screen and (min-width: 1800px) {
+    .tile {
+        width: 27%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     header .content-container {
         width: 80%;
