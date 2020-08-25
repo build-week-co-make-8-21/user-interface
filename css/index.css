@@ -104,9 +104,8 @@ header nav.links {
     /* border: 1px solid grey; */
 }
 
-header #hero-img {
+header .hero-img {
     margin-top: 2%;
-    background-image: url("/assets/home-hero.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 45vh;
@@ -114,6 +113,19 @@ header #hero-img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+header #home-hero-img {
+    background-image: url("/assets/home-hero.jpg");
+}
+
+header #about-hero-img {
+    background-image: url("/assets/about-hero.jpg");
+}
+
+header #team-hero-img {
+    background-image: url("/assets/team-hero.jpg");
+    background-position: bottom;
 }
 
 header .heading-container {
