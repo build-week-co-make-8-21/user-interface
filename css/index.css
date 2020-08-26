@@ -104,9 +104,8 @@ header nav.links {
     /* border: 1px solid grey; */
 }
 
-header #hero-img {
+header .hero-img {
     margin-top: 2%;
-    background-image: url("/assets/home-hero.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 45vh;
@@ -114,6 +113,19 @@ header #hero-img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+header #home-hero-img {
+    background-image: url("/assets/home-hero.jpg");
+}
+
+header #about-hero-img {
+    background-image: url("/assets/about-hero.jpg");
+}
+
+header #team-hero-img {
+    background-image: url("/assets/team-hero.jpg");
+    background-position: bottom;
 }
 
 header .heading-container {
@@ -150,6 +162,14 @@ header .heading-container {
 .about-section .button {
     background-color: white;
     color: #2f80ed;
+}
+
+
+/* Fixes the margin on sections that do not contain a button */
+
+.no-button p {
+    margin-top: 3%;
+    margin-bottom: 0%;
 }
 
 .uses-section {
@@ -271,6 +291,28 @@ footer hr {
 
 .team-section h2 {
     margin-bottom: 4%;
+}
+
+
+/* Animations */
+
+@keyframes pop {
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.pop:hover {
+    animation: pop 0.3s linear 1;
+}
+
+
+/* Breakpoints */
+
+@media screen and (min-width: 1800px) {
+    .tile {
+        width: 27%;
+    }
 }
 
 @media screen and (max-width: 800px) {
