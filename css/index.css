@@ -336,11 +336,11 @@ footer hr {
         width: 175px;
     }
     header nav.pages {
-        width: 38%;
+        width: 33%;
         margin-bottom: 0.5%;
     }
     header nav.links {
-        width: 32%;
+        width: 28%;
         display: flex;
         justify-content: space-between;
         margin-top: 1%;
