@@ -117,6 +117,7 @@ header .hero-img {
 
 header #home-hero-img {
     background-image: url("/assets/home-hero.jpg");
+    background-position: bottom;
 }
 
 header #about-hero-img {
